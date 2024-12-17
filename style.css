@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E1; /* Кремовый фон */
+    color: #4B4B4B; /* Тёмно-серый текст */
+    text-align: center;
+}
+
+header nav a {
+    color: #D57276; /* Пастельно-красные ссылки */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    color: #B85760; /* Тёмно-пастельный красный при наведении */
+    text-decoration: underline;
+}
+
+h1 {
+    font-style: italic;
+    color: #D57276; /* Пастельно-красный заголовок */
+    margin-top: 20px;
+}
+
+h2 {
+    color: #B85760; /* Пастельно-красный для подзаголовков */
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 20px;
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+    color: #B85760; /* Лёгкий пастельный акцент */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 5px solid #B85760; /* Пастельно-красная рамка */
+    box-shadow: 0 0 10px rgba(181, 87, 96, 0.5); /* Лёгкое пастельное свечение */
+}
+
+.band-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.member {
+    border: 3px solid #B85760;
+    padding: 10px;
+    background-color: #FFF5E1;
+    width: 200px;
+    text-align: center;
+}
+
+.about-group {
+    border: 3px solid #D57276;
+    padding: 15px;
+    background-color: #FCEFE9;
+    margin: 20px;
+}
+
+.timeline {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.timeline li {
+    background-color: #FCEFE9;
+    border: 2px solid #B85760;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #F4CAC4; /* Светлый пастельно-розовый фон подвала */
+    color: #4B4B4B;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
